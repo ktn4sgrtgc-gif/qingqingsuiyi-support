@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="清清随译离线翻译 App 的技术支持、常见问题和购买恢复帮助。">
+  <title>清清随译 - 技术支持</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">
+      <span class="mark">译</span>
+      <span><strong>清清随译</strong><small>技术支持</small></span>
+    </a>
+    <nav>
+      <a href="#help">使用帮助</a>
+      <a href="privacy.html">隐私政策</a>
+      <a class="contact" href="https://github.com/ktn4sgrtgc-gif/qingqingsuiyi-support/issues">反馈问题</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">OFFLINE · PRIVATE · CLEAR</p>
+      <h1>翻译可以离线，<br>隐私不必妥协。</h1>
+      <p class="lead">清清随译支持长文字、长语音、音频文件和拍照翻译。这里提供离线模型、权限、Pro 购买和恢复购买帮助。</p>
+      <a class="button" href="#help">查看常见问题</a>
+    </section>
+
+    <section class="grid">
+      <a href="#offline"><span>01</span><strong>离线语言包</strong><small>下载、检查和断网使用</small></a>
+      <a href="#speech"><span>02</span><strong>语音与相机</strong><small>权限、长录音和拍照</small></a>
+      <a href="#pro"><span>03</span><strong>Pro 与恢复购买</strong><small>一次买断，不订阅</small></a>
+    </section>
+
+    <section id="help" class="content">
+      <div class="heading">
+        <p class="eyebrow">HELP CENTER</p>
+        <h2>常见问题</h2>
+      </div>
+
+      <article id="offline">
+        <h3>如何下载离线语言包？</h3>
+        <ol>
+          <li>保持联网，选择原文与目标语言。</li>
+          <li>查看语言栏中的模型状态。</li>
+          <li>如果显示“联网后可下载语言包”，点“下载”。</li>
+          <li>完成后再断网测试。成功下载的语言可以继续离线使用。</li>
+        </ol>
+      </article>
+
+      <article>
+        <h3>语言栏显示不支持怎么办？</h3>
+        <p>请先升级到最新 iOS，换用另一组系统支持的语言，并确认设备已安装对应语言包。iOS 模拟器通常不包含 Translation 模型，请使用真机验证。</p>
+      </article>
+
+      <article id="speech">
+        <h3>语音或拍照没有反应</h3>
+        <ul>
+          <li>在 iPhone“设置 → 清清随译”中检查麦克风、语音识别、相机和照片权限。</li>
+          <li>在系统“键盘与听写”中下载当前语言的设备端听写模型。</li>
+          <li>拍照时保持文字清晰、光线充足并尽量正对镜头。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>录音会上传吗？</h3>
+        <p>默认不会。App 默认强制使用设备端语音识别。只有用户在设置中主动开启“语音识别允许临时联网增强”，并且设备端模型不可用时，才可能使用 Apple 在线语音服务。</p>
+      </article>
+
+      <article id="pro">
+        <h3>免费版与 Pro 有什么区别？</h3>
+        <p>免费版可完成基础文字、语音和拍照翻译。Pro 一次买断，永久解锁不限长文、不限长语音、音频文件导入和双语稿导出，不是订阅，不会自动续费。</p>
+      </article>
+
+      <article>
+        <h3>已购买但 Pro 没有解锁</h3>
+        <ol>
+          <li>确认设备和 App Store 登录的是购买时使用的 Apple ID。</li>
+          <li>保持联网，打开“升级”或设置中的 Pro 页面。</li>
+          <li>点击“恢复购买”。</li>
+          <li>仍无法恢复时，通过 GitHub Issues 提供购买时间和错误提示，不要发送 Apple ID 密码或支付信息。</li>
+        </ol>
+      </article>
+
+      <article>
+        <h3>隐私说明</h3>
+        <p>文字、照片和录音默认在设备上处理。购买由 Apple StoreKit 完成，App 不读取银行卡号或 Apple ID 密码。</p>
+        <p><a href="privacy.html">阅读完整隐私政策</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <strong>清清随译</strong>
+    <p>离线翻译，清楚表达。</p>
+    <small>© 2026 Weiqing Li</small>
+  </footer>
+</body>
+</html>
